@@ -1,0 +1,5 @@
+FROM centos:7
+MAINTAINER Eniso
+
+RUN yum update -y
+RUN yum install curl wget gcc gcc-c++ make openssl-devel libxslt-devel pcre-devel zlib-devel -y
